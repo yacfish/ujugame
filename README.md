@@ -9,7 +9,7 @@ Static landing page for **UJU**, served free on [GitHub Pages](https://pages.git
 
 ## itch.io demo
 
-The **Demo on itch.io** button is a placeholder (`href="#"`). Replace it in `index.html` when the itch URL is ready.
+The landing page shows plain text: **Demo on itch.io — coming soon** (no link). Add a real itch URL in `index.html` when the demo is ready.
 
 ## GitHub Pages
 
