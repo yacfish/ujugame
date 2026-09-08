@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UJU — 3D Puzzle Game</title>
+  <meta name="description" content="UJU is a 3D puzzle game by Yacine Sebti. Coming to Steam in 2027. Demo on itch.io.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">A 3D puzzle game</p>
+    <h1>UJU</h1>
+    <p class="tagline">Twist, stack, and think your way through shifting cube worlds.</p>
+    <p class="steam">Coming to Steam in 2027</p>
+    <div class="actions">
+      <!-- TODO: replace href with the itch.io demo URL when ready -->
+      <a class="btn primary" href="#" aria-disabled="true" title="Itch.io demo link coming soon">Demo on itch.io</a>
+      <a class="btn" href="https://x.com/UjuGame" target="_blank" rel="noopener">Follow @UjuGame</a>
+      <a class="btn" href="https://github.com/yacfish/uju" target="_blank" rel="noopener">Source on GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="shots" aria-label="Screenshots">
+      <figure>
+        <img src="assets/gameplay-01.jpg" alt="UJU gameplay screenshot" width="914" height="969">
+      </figure>
+      <figure>
+        <img src="assets/gameplay-02.jpg" alt="UJU gameplay screenshot" width="800" height="600">
+      </figure>
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>UJU is an indie 3D block puzzle game by Yacine Sebti, built with Godot. A playable demo is planned on itch.io. Steam release targeted for 2027.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Yacine Sebti · <a href="https://yacfish.github.io/" target="_blank" rel="noopener">Portfolio</a></p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
